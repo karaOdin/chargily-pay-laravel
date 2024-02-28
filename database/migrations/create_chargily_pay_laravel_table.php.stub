@@ -8,8 +8,12 @@ return new class extends Migration
 {
     public function up()
     {
-        Schema::create('migration_table_name_table', function (Blueprint $table) {
-            $table->id();
+        Schema::table('users', function (Blueprint $table) {
+            $table->string('chargily_pay_customer_id')
+            ->nullable()
+            ->after('email_verified_at')
+            ->comment('Chargily Pay Customer ID')
+            ->index();
 
             // add fields
 

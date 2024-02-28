@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace KaraOdin\ChargilyPayLaravel\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ChargilyPayLaravelCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'chargily-pay-laravel';
 
     public $description = 'My command';
 
