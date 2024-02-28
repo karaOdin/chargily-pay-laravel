@@ -3,8 +3,8 @@
 namespace KaraOdin\ChargilyPayLaravel\Tests;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
-use Orchestra\Testbench\TestCase as Orchestra;
 use KaraOdin\ChargilyPayLaravel\ChargilyPayLaravelServiceProvider;
+use Orchestra\Testbench\TestCase as Orchestra;
 
 class TestCase extends Orchestra
 {

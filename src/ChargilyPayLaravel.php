@@ -4,5 +4,4 @@ namespace KaraOdin\ChargilyPayLaravel;
 
 class ChargilyPayLaravel
 {
-
 }

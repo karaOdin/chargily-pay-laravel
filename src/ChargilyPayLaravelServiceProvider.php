@@ -2,9 +2,9 @@
 
 namespace KaraOdin\ChargilyPayLaravel;
 
+use KaraOdin\ChargilyPayLaravel\Commands\ChargilyPayLaravelCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use KaraOdin\ChargilyPayLaravel\Commands\ChargilyPayLaravelCommand;
 
 class ChargilyPayLaravelServiceProvider extends PackageServiceProvider
 {
